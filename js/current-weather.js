@@ -10,6 +10,9 @@ function setCurrentDate($el) {
   const formattedDate = formatDate(date);
   $el.textContent = formattedDate;
 }
+function setCurrentTemp($el, temp) {
+  $el.textContent = temp;
+}
 function configCurrentWeather(weather) {
   // loader
   // date
@@ -20,6 +23,8 @@ function configCurrentWeather(weather) {
   const city = weather.name;
   setCurrentCity($currentWeatherCity, city);
   //temp
+  const $currentWeatherTemp = document.querySelector("#current-weather-temp");
+  setCurrentTemp($currentWeatherTemp, "5");
   //background
 }
 
