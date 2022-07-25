@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="wheather-app">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/assets/wheather-app.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
